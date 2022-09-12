@@ -14,15 +14,23 @@ html{
     display: flex;
 }
 
-
 /* COMMON */
-
+h2{
+    padding-left: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 25px;
+}
+h3 ,h4 {
+    padding-left: 30px;
+    margin-top: 10px;
+}
 .container-big{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 .container-small{
-    width: 70%;
+    width: 60%;
     margin: 0 auto ;
     justify-content: center;
     align-items: center;
@@ -34,11 +42,17 @@ button{
     padding: 10px;
     font-size: 15px;
 }
-
+.paragraph{
+    width: 80%;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
 
 /* HEADER */
 header{
-    min-width: 100%;
+    width: 100%;
     height: 80px;
     background-color: white;
     position: fixed;
@@ -63,17 +77,15 @@ header{
     margin-right: 20px;
 }
 
-
-
 /* MAIN */
 main{
     margin-top: 80px;
 }
+
 /* Jumbotron */
 .jumbotron{
     background-color: #B4D0E7;
     width: 100%;   
-    max-height: 600px;
 }
 .titlebig{
     margin-left: 10%;
@@ -86,7 +98,6 @@ main{
 }
 .contentjumbotron{
     margin: 0 auto;
-    height: 500px;
     width: 80%;
 }
 .textjumbotron{
@@ -100,7 +111,7 @@ main{
 }
 .textjumbotron i{
     font-size: 50px;
-    margin-top: 50px;
+    margin-top: 200px;
 }
 
 .imgjumbotron{
@@ -118,36 +129,96 @@ main{
     width: 100%;
 }
 /* Plane */
-.paragraph{
-    width: 60%;
-    height: 100px;
-    background-color: tomato;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
 .optionplane{
-    width: 40%;
-    height: 50px;
-    background-color: cadetblue;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.optionplane label{
+   margin-right: 50px;
 }
 .rowplane{
     width: 100%;
-    height: 750px;
     flex-wrap: wrap;
 }
 .colplane{
     width: calc( 100% / 3 - 40px );
-    height: 700px;
-    background-color: turquoise;
-    border: .5px solid black ;
-    margin-right: 40px;
-    padding: 30px;
+    border: .5px solid grey ;
+    margin-right: 40px;    
 }
+.colplane p{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: lighter;
+    padding-left: 30px;
+}
+.colplane span{
+    display: block;
+    margin-top: 10px;
+}
+.colplane ul{
+    list-style-type: none;
+    padding-left: 30px;
+}
+.colplane button{
+    margin-left: 30px;
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.colplane li{
+    margin-top: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.colhr{
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.colplane h4{
+    padding-left: 30px;
+}
+.check{
+    color: #226FFF;
+}
+.namecard{
+    text-align: center;
+    padding: 15px;
+    font-weight: lighter;
+}
+
+/* CONTACT */
 .contact{
+    border: .5px solid grey;
     width: 100%;
-    background-color: blue;
-    height: 200px;
+    margin-top: 50px;
+    flex-direction: column;
 }
+.namecardcontact{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: lighter;   
+}
+.contact h3{
+    margin-bottom: 50px;
+}
+.solution{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.textteam{
+    width: 70%;
+}
+.buttonteam{
+    width: 30%;
+}
+#ufficiovendite{
+    margin-top: 30px;
+    width: 80%;
+}
+
 /* Partnercontent */
 .contentpartner{
     width: 100% ;
