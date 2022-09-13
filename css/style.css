@@ -74,11 +74,18 @@ header{
 .headerbox ul{
     list-style-type: none;
     display: flex;
-    
 }
 .headerbox li{
     margin-left: 20px;
     margin-right: 20px;
+    line-height: 80px;
+}
+.headerbox li:hover{
+    border-bottom: 2px solid black;
+}
+
+.headerbox button:hover{
+    background-color: #4797f3;
 }
 
 /* MAIN */
@@ -90,6 +97,9 @@ main{
 .jumbotron{
     background-color: #B4D0E7;
     width: 100%;   
+}
+.jumbotron button:hover{
+    background-color: #4797f3;
 }
 .titlebig{
     margin-left: 10%;
@@ -124,7 +134,6 @@ main{
 }
 .imgjumbotron img{
     width: 100%;
-    height: auto;
 }
 
 /* Contentpage */
@@ -167,6 +176,9 @@ main{
     width: 80%;
     margin-top: 40px;
     margin-bottom: 20px;
+}
+.colplane button:hover{
+    background-color: #4797f3;
 }
 .colplane li{
     margin-top: 20px;
@@ -218,6 +230,9 @@ main{
 .buttonteam{
     width: 30%;
 }
+.buttonteam button:hover{
+    background-color: #4797f3;
+}
 #ufficiovendite{
     margin-top: 30px;
     width: 80%;
@@ -252,6 +267,10 @@ main{
     color: black;
     border: 1px solid;
     padding: 13px;
+}
+.contenttext button:hover{
+    background-color: rgb(248, 245, 245);
+    border: 0px;
 }
 /* Operations */
 .rowinfo{
@@ -337,6 +356,9 @@ main{
 .clear{
     background-color: #FFD830;
 }
+.center{
+    background-color: #F5F5F5;
+}
 
 /* Provagratutia */
 .provagratuita{
@@ -360,6 +382,10 @@ main{
     color: black;
     width: 50%;
 }
+.provabutton button:hover{
+    background-color: rgb(248, 245, 245);
+    border: 0px;
+}
 
 /* FAQ */
 .question{
@@ -379,6 +405,7 @@ main{
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
 .questfreccia{
     margin-top: 40px;
     margin-bottom: 40px;
