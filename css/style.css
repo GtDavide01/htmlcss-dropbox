@@ -85,7 +85,7 @@ header{
 .headerbox li{
     margin-left: 20px;
     margin-right: 20px;
-    line-height: 80px;
+    line-height:80px;
 }
 .headerbox li:hover{
     border-bottom: 2px solid black;
@@ -132,7 +132,7 @@ main{
 }
 .textjumbotron i{
     font-size: 50px;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .imgjumbotron{
@@ -141,6 +141,10 @@ main{
 }
 .imgjumbotron img{
     width: 100%;
+}
+.container-big.posbot{
+    position: relative;
+    bottom: -60px;
 }
 
 /* Contentpage */
