@@ -176,7 +176,8 @@ main{
 }
 .colplane span{
     display: block;
-    margin-top: 10px;
+   position: relative;
+   bottom: 2px;
 }
 .colplane ul{
     list-style-type: none;
@@ -195,7 +196,9 @@ main{
     margin-top: 20px;
     font-size: 15px;
     margin-bottom: 20px;
+    display: flex;
 }
+
 .colplane i{
     margin-right: 5px;
 }
